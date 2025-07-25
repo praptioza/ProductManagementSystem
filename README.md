@@ -28,6 +28,16 @@ This project is basically a **Product Management System** where anyone can brows
 - Database is managed using **Entity Framework Core** with code-first migrations directly done from the Visual Code's developer Command Prompt and all the migrations made are logged in the project folder structure.
 - The UI here is server-rendered using **Razor Views** in the MVC architecture pattern
 
+--- 
+
+OOP principles shown in this app:
+
+Encapsulation: Each model (like Product) has its own properties and logic.
+
+Abstraction: We don’t interact with the database directly; EF Core does it for us thus it is abstracted.
+
+Inheritance: ASP.NET Identity uses class inheritance to manage Users, Identity, Authentication, Authorization, Management.
+
 ---
 
 ## Tech Stack
